@@ -163,7 +163,7 @@ while True:
     print("最終的な合計値", end=" ")
     print("プレイヤー:" + str(card_total(players_card)) + 
           " ディーラー:" + str(card_total(dealer_card)))
-    print("引いたカードテスト" + str(drawncard_list))
+    # print("引いたカードテスト" + str(drawncard_list))
 
     ques = input("もう一度遊びますか？ 遊ぶならyを入力してEnter " \
     "やめるならウインドウを閉じてください:")
